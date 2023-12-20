@@ -15,21 +15,22 @@
 
     <header class="d-flex align-items-center">
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+        <nav class="navbar navbar-expand-lg navbar-expand-md bg-body-tertiary w-100">
 
             <div class="container-fluid">
 
                 <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
 
                     <div class="ms_logo mx-3">
-                        <img src="./img/logo.svg" alt="">
+                        <img class="d-none d-lg-inline" src="./img/logo.svg" alt="">
+                        <img class="d-lg-none ms_logo_small" src="./img/mobile-logo.png" alt="">
                     </div>
                 
                     <form class="d-flex flex-grow-1" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     </form>
 
-                    <ul class="navbar-nav mb-2 mb-lg-0">
+                    <ul class="navbar-nav mb-2 mb-lg-0 d-none d-lg-flex">
 
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -51,10 +52,12 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
+                        
                     </ul>
+
+                    <div class="nav-item">
+                        <div class="btn">BELL</div>
+                    </div>
 
                 </div>
 

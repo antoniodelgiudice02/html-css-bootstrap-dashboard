@@ -4,5 +4,11 @@
 
 header{
     height: 70px;
+
+    /*debug*/
     background-color: rgb(199, 169, 130);
+}
+
+.ms_logo_small{
+    width: 40px;
 }

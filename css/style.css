@@ -30,7 +30,7 @@ aside{
     width: 13vw;
     max-width: 150px;
     min-width: 45px;
-    height: 100vh;
+    height: calc(100vh - 70px);
 
     /*debug*/
     background-color: rgb(48, 48, 119);
@@ -45,7 +45,7 @@ aside .btn{
 *****************************/
 
 #body{
-    height: 100vh;
+    height: calc(100vh - 70px);
 }
 
 
@@ -60,7 +60,15 @@ aside .btn{
     background-color: rgb(48, 137, 153);
 }
 
+#header .container{
+    
+}
+
+/******************
+        #MAIN
+*********************/
+
 #main{
-    height: calc(100% - 80px);
+    height: 100vh;
 }
 

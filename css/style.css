@@ -54,9 +54,9 @@ aside .btn{
 *********************/
 
 #header{
-    height: 80px;
 
     /*debug*/
+    height: 80px;
     background-color: rgb(48, 137, 153);
 }
 
@@ -68,7 +68,5 @@ aside .btn{
         #MAIN
 *********************/
 
-#main{
-    height: 100vh;
-}
+
 

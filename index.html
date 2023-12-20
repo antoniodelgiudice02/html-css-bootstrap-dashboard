@@ -101,9 +101,9 @@
 
                     <div class="row h-100 justify-content-between debug">
 
-                        <div class="col-md-3 h-25 debug"></div>
-                        <div class="col-md-3 h-25 debug"></div>
-                        <div class="col-md-3 h-25 debug"></div>
+                        <div class="col-md-3 debug"></div>
+                        <div class="col-md-3 debug"></div>
+                        <div class="col-md-3 debug"></div>
 
                     </div>
 
@@ -113,18 +113,57 @@
 
             <section id="main" class="debug"> <!-- ALTO 100VH-->
 
-                <div class="container h-100 d-flex justify-content-center debug">
+                <div class="container d-flex justify-content-center debug">
 
-                    <div class="row w-100 h-100 gx-5  debug">
+                    <div class="row w-100 gx-5  debug">
 
                         <div class="col-lg-8 debug">
-                            <div class="card h-50 mt-3 debug"></div>
-                            <div class="card h-25 mt-3 debug"></div>
+                            <div class="card mt-3 debug">
+                                <ul class="list-group">
+                                    <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
+                                    <li class="list-group-item">A second item</li>
+                                    <li class="list-group-item">A third item</li>
+                                    <li class="list-group-item">A fourth item</li>
+                                    <li class="list-group-item">And a fifth one</li>
+                                  </ul>
+                            </div>
+                            <div class="card mt-3 debug">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">An item</li>
+                                    <li class="list-group-item">A second item</li>
+                                    <li class="list-group-item">A third item</li>
+                                  </ul>
+                            </div>
                         </div>
 
                         <div class="col-lg-4 debug">
-                            <div class="card h-25 mt-3 debug"></div>
-                            <div class="card h-50 mt-3 debug"></div>
+                            <div class="card mt-3 debug">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                      <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                      <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                      <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+                                    </li>
+                                  </ul>
+                            </div>
+                            <div class="card mt-3 debug">
+                                <img src="./img/stats.jpeg" alt="">
+                                <ul class="list-group">
+                                    <li class="list-group-item" aria-disabled="true"><h3 class="fs-5">Ultime attività</h3>A disabled item</li>
+                                    <li class="list-group-item">A second item</li>
+                                    <li class="list-group-item">A third item</li>
+                                    <li class="list-group-item">
+                                        <a href="#" class="list-group-item-action active" aria-current="true">The current link item</a>
+                                    </li>
+                                  </ul>
+                            </div>
                         </div>
 
                     </div>

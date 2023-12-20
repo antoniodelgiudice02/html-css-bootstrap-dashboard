@@ -27,7 +27,7 @@ header{
 *********************/
 
 aside{
-    width: 13vw;
+    width: 10vw;
     max-width: 150px;
     min-width: 45px;
     height: calc(100vh - 70px);
@@ -68,5 +68,7 @@ aside .btn{
         #MAIN
 *********************/
 
-
+#main .ms_container{
+    margin: 0;
+}
 

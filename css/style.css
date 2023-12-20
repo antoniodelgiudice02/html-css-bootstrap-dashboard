@@ -12,3 +12,21 @@ header{
 .ms_logo_small{
     width: 40px;
 }
+
+/******************
+        ASIDE
+*********************/
+
+aside{
+    width: 13vw;
+    max-width: 150px;
+    min-width: 45px;
+    height: 100vh;
+
+    /*debug*/
+    background-color: rgb(48, 48, 119);
+}
+
+aside .btn{
+    color: white;
+}

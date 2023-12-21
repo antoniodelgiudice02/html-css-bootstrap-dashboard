@@ -96,6 +96,12 @@ aside span{
     margin-left: 5px;
 }
 
+/*OFFCANVAS HEADER*/
+
+#header label{
+    color: black;
+}
+
 /******************
         #MAIN
 *********************/

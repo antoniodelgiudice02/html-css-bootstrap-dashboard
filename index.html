@@ -101,7 +101,15 @@
             
         </aside>
 
+        <!--*******************
+                #BODY
+        *********************-->
+
         <div id="body" class="w-100 overflow-scroll overflow-x-hidden">
+
+        <!--*******************
+                #HEADER
+        *********************-->
 
             <section id="header" class="p-2">
 
@@ -130,7 +138,93 @@
                             <div class="h3">125</div>
                         </div>
                         <div class="col-sm-3 align-middle">
-                            <div class="ms_fs"><span>Nuovo studente</span><div class="btn btn-sm btn-outline-light header-ns-btn"><i class="fa-solid fa-plus"></i></div></div>
+                            <div class="ms_fs">
+                                <span>Nuovo studente</span>
+
+                                <button class="btn btn-outline-light ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNewStudent" aria-controls="offcanvasNewStudent">
+                                    <i class="fa-solid fa-plus"></i>
+                                </button>
+                                  
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNewStudent" aria-labelledby="offcanvasNewStudentLabel">
+
+                                    <div class="offcanvas-header">
+                                      <span class="h5 offcanvas-title" id="offcanvasNewStudentLabel">Inserisci un nuovo studente</span>
+                                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+
+                                    <div class="offcanvas-body">
+                                        <form class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="Name" class="form-label">Nome</label>
+                                                <input type="text" class="form-control" id="inputName">
+                                              </div>
+                                              <div class="col-md-6">
+                                                <label for="inputSurename" class="form-label">Cognome</label>
+                                                <input type="text" class="form-control" id="inputSurename">
+                                              </div>
+                                              <div class="col-md-6">
+                                                <label class="form-label" for="inputEmail">Email</label>
+                                                <div class="input-group">
+                                                  <div class="input-group-text">@</div>
+                                                  <input type="email" class="form-control" id="inputEmail">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-md-6">
+                                              <label for="inputPassword" class="form-label">Password</label>
+                                              <input type="password" class="form-control" id="inputPassword">
+                                            </div>
+
+                                        
+                                            <div class="col-12">
+                                              <label for="inputAddress" class="form-label">Indirizzo</label>
+                                              <input type="text" class="form-control" id="inputAddress">
+                                            </div>
+                                            <div class="col-md-6">
+                                              <label for="inputCity" class="form-label">Città</label>
+                                              <input type="text" class="form-control" id="inputCity">
+                                            </div>
+                                            <div class="col-md-4">
+                                              <label for="inputState" class="form-label">Stato</label>
+                                              <select id="inputState" class="form-select">
+                                                <option selected>Italia</option>
+                                                <option>Germania</option>
+                                                <option>Francia</option>
+                                                <option>Belgio</option>
+                                                <option>Spagna</option>
+                                                <option>Portogallo</option>
+                                                <option>Albania</option>
+                                                <option>Svizzera</option>
+                                              </select>
+                                            </div>
+
+                                            <div class="col-md-2">
+                                              <label for="inputCAP" class="form-label">CAP</label>
+                                              <input type="text" class="form-control" id="inputCAP">
+                                            </div>
+
+                                            <div class="col-12 mb-3">
+                                                <label for="inputPhoto" class="form-label">Foto</label>
+                                                <input type="file" class="form-control" id="inputPhoto">
+                                            </div>
+                                              
+                                            <div class="col-12">
+                                              <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                  Accetto i termini e le condizioni.
+                                                </label>
+                                              </div>
+                                            </div>
+                                            <div class="col-12">
+                                              <button type="submit" class="btn btn-primary">Salva</button>
+                                              <button type="delete" class="btn btn-warning">Svuota</button>
+                                            </div>
+
+                                          </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
@@ -138,6 +232,10 @@
                 </div>
 
             </section>
+
+        <!--*******************
+                #MAIN
+        *********************-->
 
             <section id="main" class="py-2">
 

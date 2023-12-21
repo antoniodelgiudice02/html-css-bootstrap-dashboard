@@ -72,3 +72,6 @@ aside .btn{
     margin: 0;
 }
 
+#main .table *{
+    font-size: 0.8rem;
+}

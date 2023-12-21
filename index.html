@@ -220,7 +220,7 @@
                             </div>
                             <div class="card mt-3">
                                 <div><div class="h4 m-2">F.A.Q.</div></div>
-                                <div class="p-2">
+                                <div class="p-2" id="FAQ">
                                     <div class="accordion accordion-flush">
                                         <div class="accordion-item">
                                           <h2 class="accordion-header">
@@ -260,7 +260,7 @@
                         <div class="col-lg-4 px-2">
                             <div class="card mt-3">
                                 <div><div class="h4 m-2">Todo</div></div>
-                                <div class="p-2">
+                                <div class="p-2" id="todo">
                                     <ul class="list-group">
                                         <li class="list-group-item">
                                           <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
@@ -277,16 +277,21 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="card mt-3">
-                                <img class="m-1" src="./img/stats.jpeg" alt="">
-                                <ul class="list-group m-1">
-                                    <li class="list-group-item" aria-disabled="true"><h3 class="fs-5">Ultime attività</h3>A disabled item</li>
-                                    <li class="list-group-item">A second item</li>
-                                    <li class="list-group-item">A third item</li>
-                                    <li class="list-group-item">
-                                        <a href="#" class="list-group-item-action active" aria-current="true">The current link item</a>
+                            <div class="card mt-3" id="utenti-attivi">
+                                <ul class="list-group p-2">
+                                    
+                                    <li class="list-group-item" aria-disabled="true">
+                                        <img class="m-1 w-100" src="./img/stats.jpeg" alt="">
+                                        <div class="h5">Utenti attivi</div>
+                                        <span>Lista degli utenti attivi nella piattaforma nell'ultimo mese</span>
                                     </li>
-                                  </ul>
+                                    <li class="list-group-item"><span>Gennaio: 1200</span></li>
+                                    <li class="list-group-item"><span>Febbraio: 800</span></li>
+                                    <li class="list-group-item"><span>Marzo 1500:</span></li>
+                                    <li class="list-group-item">
+                                        <a class="link-opacity-100" href="#">Visualizza report approfondito</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 

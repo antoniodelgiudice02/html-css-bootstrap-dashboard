@@ -63,18 +63,26 @@ aside .btn{
 /******************
         #MAIN
 *********************/
+#main{
+    background-color: #f8f9fa;
+}
 
 #main .ms_container{
     margin: 0;
 }
 
-#main .table *{
-    font-size: 0.8rem;
-}
-
 #main .card > div:first-child{
     background-color: #f7f7f7;
     border-bottom: 1px solid #d2d2d2;
+    border-radius: 5px;
+}
+
+/******************
+        #TABLE
+*********************/
+
+#main .table *{
+    font-size: 0.8rem;
 }
 
 #main .table img{
@@ -99,4 +107,26 @@ aside .btn{
 }
 #main .table .failed{
     background-color: #dc3545;
+}
+
+/******************
+        #FAQ
+*********************/
+
+#FAQ *{
+    font-size: 0.8rem;
+}
+
+/******************
+        #TODO
+*********************/
+
+#todo *{
+    font-size: 0.8rem;
+}
+
+
+#utenti-attivi span,
+#utenti-attivi a{
+    font-size: 0.8rem;
 }

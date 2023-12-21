@@ -16,6 +16,10 @@ header{
     width: 40px;
 }
 
+.fa-bell{
+    color: #ffc107;
+}
+
 /******************************************************
                         MAIN
 ******************************************************/
@@ -23,6 +27,10 @@ header{
 /******************
         ASIDE
 *********************/
+
+.ms_fs{
+    font-size: 0.8rem;
+}
 
 aside{
     width: 10vw;
@@ -34,6 +42,16 @@ aside{
 
 aside .btn{
     color: white;
+}
+
+aside .btn-side{
+    color: white;
+    padding: 0;
+}
+
+aside span{
+    font-size: 0.8rem;
+    margin-left: 10px;
 }
 
 /*****************************

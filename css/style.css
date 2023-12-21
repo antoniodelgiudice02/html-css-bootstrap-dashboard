@@ -50,14 +50,27 @@ aside .btn{
 *********************/
 
 #header{
-
-    /*debug*/
-    height: 80px;
     background-color: #1b72e8;
 }
 
-#header .container{
-    
+#header .row{
+    color: white;
+}
+
+#header .header-btn{
+    font-size: 0.6rem;
+    color: white;
+    background-color: #155bba;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+
+#header .ms_fs{
+    font-size: 0.8rem;
+}
+
+#header .header-ns-btn{
+    margin-left: 5px;
 }
 
 /******************

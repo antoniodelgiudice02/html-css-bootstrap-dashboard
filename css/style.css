@@ -9,9 +9,7 @@
 
 header{
     height: 70px;
-
-    /*debug*/
-    background-color: rgb(199, 169, 130);
+    background-color: rgb(255, 255, 255);
 }
 
 .ms_logo_small{
@@ -31,9 +29,7 @@ aside{
     max-width: 150px;
     min-width: 45px;
     height: calc(100vh - 70px);
-
-    /*debug*/
-    background-color: rgb(48, 48, 119);
+    background-color: #132940;
 }
 
 aside .btn{
@@ -57,7 +53,7 @@ aside .btn{
 
     /*debug*/
     height: 80px;
-    background-color: rgb(48, 137, 153);
+    background-color: #1b72e8;
 }
 
 #header .container{
@@ -74,4 +70,33 @@ aside .btn{
 
 #main .table *{
     font-size: 0.8rem;
+}
+
+#main .card > div:first-child{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+#main .table img{
+    width: 5%;
+    margin-right: 10px;
+}
+
+#main .table .done,
+#main .table .process,
+#main .table .failed{
+    color: white;
+    padding: 0 3px;
+    font-size: 0.7rem;
+
+}
+
+#main .table .done{
+    background-color: #198754;
+}
+#main .table .process{
+    background-color: #ffc107;
+}
+#main .table .failed{
+    background-color: #dc3545;
 }
